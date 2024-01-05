@@ -19,21 +19,30 @@
       font-size: 36px;
       color: #ffffff;
       text-decoration: none;
-      border-radius: 50%;
-      border: 2px solid transparent;
-      transition: border-color 0.3s ease-in-out;
+      transition: transform 0.3s ease-in-out;
     }
-    #enlaceInicio:hover {
-      border-color: #ffffff;
+    #enlaceInicioContainer {
+      display: inline-block;
+      overflow: hidden;
+      border-radius: 50%;
+      background-color: black;
+      transition: transform 0.3s ease-in-out;
+    }
+    #enlaceInicioContainer:hover {
+      transform: scale(1.1);
     }
   </style>
 </head>
 <body>
 
-<a id="enlaceInicio" href="https://pagina-informativa-pis.my.canva.site/foranix">Inicio</a>
+<div id="enlaceInicioContainer">
+  <a id="enlaceInicio" href="https://pagina-informativa-pis.my.canva.site/foranix">Inicio</a>
+</div>
 
 </body>
 </html>
+
+
 
 
 
